@@ -1,0 +1,96 @@
+.inp1{
+    padding: 20px;
+    outline: none;
+    background: none;
+    margin-left: 20px;
+    border: none;
+    width: 215px;
+    display: block;
+    transition: all 0.1s linear;
+    color: #000;
+    font-size: 20px;
+    text-align: right;
+    border-bottom: 3px solid black;
+    width: 150px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+.inp1::placeholder{
+    color: #000;
+    font-size: 30px;
+}
+button{
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+    outline: none;
+    background-color: #aaa;
+    color: black;
+    width: 60px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 0.1s ease-in-out;
+}
+button:hover{
+    background-color: #555555;
+    color: #fff;
+}
+.num1{
+    margin-left: 20px;
+}
+.sa{
+    width: 123px;
+}
+.sa2{
+    width: 250px;
+}
+body{
+    background: linear-gradient(#ffffffbb,#005aad);
+    margin-bottom: 68px;
+    overflow: hidden;
+}
+.calc{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 500px;
+    width: 300px;
+    border-radius: 30px;
+    margin-top: 80px;
+    padding: 10px;
+    background: linear-gradient(to bottom right,#363636,#58a6ff7c,black);
+}
+.colr{
+    background: linear-gradient(to bottom right,pink,purple);
+    transition: all 0.2s linear;
+}
+.colr:hover{
+    background: linear-gradient(to bottom right,magenta,violet);
+}
+.color1{
+    background: linear-gradient(to top right,#ffd415,#b99700);
+    transition: all 0.2s linear;
+}
+.color1:hover{
+    background: linear-gradient(to top right,#776100,#b99700);
+}
+.colr1{
+    background: linear-gradient(to bottom left,#006eb8,#004370);
+    transition: all 0.2s linear;
+}
+.colr1:hover{
+    background: linear-gradient(to bottom left,#06558a,#004370);
+}
+.col{
+    background: linear-gradient(to top left,#c0bd1f,orange);
+    transition: all 0.2s ease-in-out;
+}
+.col:hover{
+    background: linear-gradient(to bottom right,#8d8b19,rgb(194, 126, 0));
+}
+.ecual{
+    background: linear-gradient(to bottom left,crimson,tomato);
+    transition: all 0.2s linear;
+}
+.ecual:hover{
+    background: linear-gradient(to bottom right, rgb(184, 17, 51),tomato);
+}
